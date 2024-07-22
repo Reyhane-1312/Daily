@@ -1,0 +1,90 @@
+  /* Selectors in CSS are used to select and apply visual styles to HTML elements.
+  There are different types of selectors that allow you to choose the elements you want. Below are explanations of some important types of selectors:
+
+    1. Element Selector:
+   This type of selector selects based on the HTML element name. For example: */
+      p {
+       color: blue;
+   }
+   
+   /* This selector selects all <p> elements on the page and makes their text color blue.
+
+    2. Class Selector:
+    With this type of selector, you can select elements that have a specific class. For example: */
+      .highlight {
+       background-color: yellow;
+   }
+   
+    /* This selector selects all elements with the class highlight and sets their background color to yellow.
+
+    3. ID Selector:
+    This type of selector works based on the unique ID given to an HTML element. For example: */
+      #header {
+       font-size: 24px;
+   }
+   
+   /* This selector selects the element with the ID header and sets its font size to 24 pixels.
+
+    4. Combined Selector:
+    You can combine multiple selectors to select elements that meet all the specified conditions. For example: */
+      p.highlight {
+       font-weight: bold;
+   }
+   
+    /* This selector selects all <p> elements with the class highlight and makes their text bold.
+
+    Using selectors, you will be able to style your HTML elements in a precise and efficient manner. */
+
+   /* In CSS, you can use HTML tags to change the color, size, and style of text, as well as fonts. Below are explanations of these features:
+
+   1. Changing text color:
+   To change the color of text in an HTML tag, you can use the color property. For example: */
+      p {
+       color: blue;
+   }
+   
+   /* This code sets all <p> tags to have blue text color.
+
+    2. Changing text size:
+   To change the size of text in an HTML tag, you can use the font-size property. For example: */
+      h1 {
+       font-size: 36px;
+   }
+   
+   /* This code sets the size of all <h1> tags to 36 pixels.
+
+    3. Changing text style:
+   To change the style of text in an HTML tag, you can use various properties such as font-weight, font-style, and text-decoration. For example: */
+      .bold-text {
+       font-weight: bold;
+   }
+
+   em {
+       font-style: italic;
+   }
+
+   .underline {
+       text-decoration: underline;
+   }
+   
+   /* These codes respectively make text with the class bold-text bold, <em> tags italic, and all tags with the class underline underlined.
+
+    4. Changing font:
+   To change the font of an HTML tag, you can use the font-family property. For example: */
+      body {
+       font-family: 'Arial', sans-serif;
+   }
+   
+   /* This code sets the font of the document body to Arial font, and if this font is not supported, a fallback font will be used.
+
+    By using these features, you will be able to customize the appearance and style of text on your web pages as desired. */
+
+    /* In CSS, you can use different types of font styles to design your websites. Some of the font styles include:
+    1. font-style: normal;: This style gives the text a normal and upright shape.
+    2. font-style: italic;: This style gives the text an italic and slanted shape.
+    3. font-style: oblique;: This style gives the text an oblique and slanted shape, but the difference with italic is that the font itself is slanted and not just visually.
+    4. font-style: initial;: This style applies the default font style to the text.
+    5. font-style: inherit;: This style inherits the font style from its direct parent or ancestor.
+    By using these font styles, you can customize the appearance and style of your text as desired and create an attractive design for your website. */
+    
+    
